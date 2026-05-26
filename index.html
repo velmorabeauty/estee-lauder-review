@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estée Lauder Advanced Night Repair – Honest Review 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #C9A96E;
+    --gold-light: #E8D5B0;
+    --dark: #1A1209;
+    --cream: #FAF6F0;
+    --text: #3D2E1A;
+    --muted: #8A7560;
+    --white: #FFFFFF;
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: var(--dark);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -200px; right: -200px;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(201,169,110,0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-left {
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .hero-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(201,169,110,0.4);
+    padding: 8px 18px;
+    margin-bottom: 32px;
+    width: fit-content;
+  }
+
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(42px, 5vw, 68px);
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--white);
+    margin-bottom: 12px;
+  }
+
+  .hero h1 em { font-style: italic; color: var(--gold); }
+
+  .hero-sub {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.7;
+    margin-bottom: 40px;
+    max-width: 420px;
+  }
+
+  .stars {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+
+  .stars-icons { color: var(--gold); font-size: 18px; letter-spacing: 2px; }
+  .stars-text { font-size: 13px; color: rgba(255,255,255,0.5); }
+
+  .btn-amazon {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--dark);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: fit-content;
+  }
+
+  .btn-amazon:hover { background: var(--gold-light); transform: translateY(-2px); }
+
+  .btn-note {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    margin-top: 12px;
+  }
+
+  /* Hero Right — prod3 beauty sleep image */
+  .hero-right {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-right-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    opacity: 0.9;
+  }
+
+  /* Dark overlay so text on left stays legible */
+  .hero-right::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, var(--dark) 0%, transparent 30%);
+    pointer-events: none;
+  }
+
+  /* Price badge on top of image */
+  .price-badge {
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+    background: rgba(26,18,9,0.75);
+    border: 1px solid rgba(201,169,110,0.4);
+    backdrop-filter: blur(6px);
+    padding: 16px 24px;
+    z-index: 3;
+  }
+
+  .price-badge .price { font-family: 'Cormorant Garamond', serif; font-size: 32px; color: var(--gold); }
+  .price-badge .price-label { font-size: 11px; color: rgba(255,255,255,0.4); letter-spacing: 2px; text-transform: uppercase; }
+
+  /* ── TRUST BAR ── */
+  .trust-bar {
+    background: var(--gold);
+    padding: 16px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--dark);
+    letter-spacing: 0.5px;
+  }
+
+  .trust-icon { font-size: 16px; }
+
+  /* ── SHARED SECTION ── */
+  section { padding: 100px 40px; max-width: 1100px; margin: 0 auto; }
+
+  .section-tag {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(32px, 4vw, 52px);
+    font-weight: 300;
+    line-height: 1.2;
+    color: var(--text);
+    margin-bottom: 20px;
+  }
+
+  .section-title em { font-style: italic; color: var(--gold); }
+
+  /* ── BENEFITS ── */
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-top: 60px;
+  }
+
+  .benefit-card {
+    background: var(--white);
+    padding: 48px 36px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+
+  .benefit-card:hover { transform: translateY(-4px); }
+
+  .benefit-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%; height: 2px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+  }
+
+  .benefit-card:hover::after { transform: scaleX(1); }
+
+  .benefit-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 300;
+    color: var(--gold-light);
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .benefit-title { font-size: 16px; font-weight: 500; color: var(--text); margin-bottom: 12px; }
+  .benefit-desc { font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+  /* ── POWER BANNER (Prod2 — 7 Serums in 1) ── */
+  .power-banner {
+    width: 100%;
+    max-height: 540px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .power-banner img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.6s ease;
+  }
+
+  .power-banner:hover img { transform: scale(1.02); }
+
+  .power-banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(26,18,9,0.55) 0%, transparent 60%);
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+  }
+
+  .power-banner-text {
+    color: var(--white);
+    max-width: 400px;
+  }
+
+  .power-banner-text .tag {
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+
+  .power-banner-text h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(36px, 4vw, 58px);
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+
+  .power-banner-text h2 em { font-style: italic; color: var(--gold); }
+
+  .power-banner-text p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.7;
+  }
+
+  /* ── INGREDIENTS ── */
+  .ingredients-section {
+    background: var(--dark);
+    padding: 100px 40px;
+  }
+
+  .ingredients-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .ingredients-section .section-title { color: var(--white); }
+
+  .ingredient-list { margin-top: 40px; }
+
+  .ingredient-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    align-items: flex-start;
+  }
+
+  .ingredient-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 8px;
+    flex-shrink: 0;
+  }
+
+  .ingredient-name { font-size: 15px; font-weight: 500; color: var(--white); margin-bottom: 4px; }
+  .ingredient-desc { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.6; }
+
+  /* prod1 image in ingredients visual */
+  .ingredients-visual {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ingredients-img {
+    width: 100%;
+    max-width: 440px;
+    border-radius: 4px;
+    display: block;
+    box-shadow: 0 30px 70px rgba(0,0,0,0.5);
+    transition: transform 0.4s ease;
+  }
+
+  .ingredients-img:hover { transform: scale(1.02); }
+
+  /* ── REVIEWS ── */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+  }
+
+  .review-card {
+    background: var(--white);
+    padding: 36px;
+    border-top: 3px solid var(--gold);
+  }
+
+  .review-stars { color: var(--gold); font-size: 14px; letter-spacing: 2px; margin-bottom: 16px; }
+
+  .review-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-style: italic;
+    color: var(--text);
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .review-author { font-size: 12px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
+  .review-verified { font-size: 11px; color: var(--gold); margin-top: 4px; }
+
+  /* ── HOW TO USE ── */
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    margin-top: 60px;
+  }
+
+  .step-card {
+    background: var(--white);
+    padding: 40px 28px;
+    text-align: center;
+  }
+
+  .step-number {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+
+  .step-title { font-size: 14px; font-weight: 500; color: var(--text); margin-bottom: 8px; }
+  .step-desc { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+  /* ── CTA FINAL with prod4 side image ── */
+  .cta-section {
+    background: var(--dark);
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cta-left {
+    padding: 100px 60px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    z-index: 2;
+  }
+
+  .cta-left::before {
+    content: '';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(201,169,110,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .cta-section .section-title { color: var(--white); }
+
+  .cta-desc {
+    font-size: 16px;
+    color: rgba(255,255,255,0.5);
+    max-width: 440px;
+    margin-bottom: 48px;
+    line-height: 1.7;
+  }
+
+  .btn-large {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--dark);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 22px 60px;
+    text-decoration: none;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn-large:hover { background: var(--gold-light); transform: translateY(-2px); }
+
+  .guarantee {
+    margin-top: 24px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.3);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* prod4 image on the right of CTA */
+  .cta-right {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-right img {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    opacity: 0.85;
+  }
+
+  .cta-right::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, var(--dark) 0%, transparent 40%);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0F0B05;
+    padding: 32px 40px;
+    text-align: center;
+  }
+
+  .affiliate-disclosure {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    .hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-right { display: none; }
+    .hero-left { padding: 60px 24px; }
+    .benefits-grid { grid-template-columns: 1fr; }
+    .reviews-grid { grid-template-columns: 1fr; }
+    .steps-grid { grid-template-columns: repeat(2, 1fr); }
+    .ingredients-inner { grid-template-columns: 1fr; }
+    .ingredients-visual { display: none; }
+    .trust-bar { gap: 20px; padding: 16px 24px; }
+    section { padding: 60px 24px; }
+    .power-banner-overlay { padding: 30px 28px; }
+    .power-banner img { height: 400px; }
+    .cta-section { grid-template-columns: 1fr; }
+    .cta-right { display: none; }
+    .cta-left { padding: 80px 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ HERO ═══ -->
+<div class="hero">
+  <div class="hero-left">
+    <span class="hero-tag">Honest Review · Amazon's Choice 2026</span>
+    <h1>The Serum That<br><em>Actually Works</em><br>While You Sleep</h1>
+    <p class="hero-sub">Over 6,200 verified reviews. 2,000+ women bought it last month alone. Here's why the Estée Lauder Advanced Night Repair is still the gold standard in luxury skincare.</p>
+    <div class="stars">
+      <span class="stars-icons">★★★★★</span>
+      <span class="stars-text">4.5 · 6,232 reviews on Amazon</span>
+    </div>
+    <a href="https://amzn.to/4dEJBMg" target="_blank" class="btn-amazon">Check Price on Amazon →</a>
+    <p class="btn-note">Free returns · Ships today with Prime</p>
+  </div>
+
+  <!-- prod3: beauty sleep model -->
+  <div class="hero-right">
+    <img src="prod3.png" alt="Look like you got your 8 hours of beauty sleep" class="hero-right-img" />
+    <div class="price-badge">
+      <div class="price-label">Starting at</div>
+      <div class="price">$85</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ TRUST BAR ═══ -->
+<div class="trust-bar">
+  <div class="trust-item"><span class="trust-icon">✓</span> Amazon's Choice Badge</div>
+  <div class="trust-item"><span class="trust-icon">✓</span> 2K+ Sold Last Month</div>
+  <div class="trust-item"><span class="trust-icon">✓</span> Free Returns</div>
+  <div class="trust-item"><span class="trust-icon">✓</span> Prime Eligible</div>
+  <div class="trust-item"><span class="trust-icon">✓</span> 10% Commission Category</div>
+</div>
+
+<!-- ═══ BENEFITS ═══ -->
+<section>
+  <p class="section-tag">Why it works</p>
+  <h2 class="section-title">6 Reasons Women<br>Won't Stop Buying This <em>Serum</em></h2>
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <div class="benefit-num">01</div>
+      <div class="benefit-title">Repairs Skin Overnight</div>
+      <div class="benefit-desc">The synchronized multi-recovery complex works while you sleep, targeting fine lines, dark spots, and uneven texture simultaneously.</div>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-num">02</div>
+      <div class="benefit-title">Hyaluronic Acid Hydration</div>
+      <div class="benefit-desc">Deep moisture that plumps skin from within. You wake up with visibly smoother, bouncier skin — not just surface hydration.</div>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-num">03</div>
+      <div class="benefit-title">Peptide Complex</div>
+      <div class="benefit-desc">Clinically-tested peptides signal skin to produce more collagen, helping restore firmness and elasticity over time.</div>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-num">04</div>
+      <div class="benefit-title">Suitable for All Skin Types</div>
+      <div class="benefit-desc">Lightweight, fast-absorbing formula works for oily, dry, combination, and sensitive skin without clogging pores.</div>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-num">05</div>
+      <div class="benefit-title">Visible Results in 4 Weeks</div>
+      <div class="benefit-desc">Clinical studies show significant improvement in skin radiance, texture, and fine line appearance within just one month of use.</div>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-num">06</div>
+      <div class="benefit-title">Trusted Luxury Brand</div>
+      <div class="benefit-desc">Estée Lauder has been a dermatologist-recommended brand for over 75 years. This serum is their bestselling product worldwide.</div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ═══ INGREDIENTS ═══ -->
+<div class="ingredients-section">
+  <div class="ingredients-inner">
+    <div>
+      <p class="section-tag" style="color:var(--gold);">What's inside</p>
+      <h2 class="section-title">Key <em>Ingredients</em><br>That Make the Difference</h2>
+      <div class="ingredient-list">
+        <div class="ingredient-item">
+          <div class="ingredient-dot"></div>
+          <div>
+            <div class="ingredient-name">Hyaluronic Acid</div>
+            <div class="ingredient-desc">Attracts and retains up to 1,000x its weight in moisture. Instantly plumps and hydrates at a deep level.</div>
+          </div>
+        </div>
+        <div class="ingredient-item">
+          <div class="ingredient-dot"></div>
+          <div>
+            <div class="ingredient-name">ChronoluxCB™ Technology</div>
+            <div class="ingredient-desc">Estée Lauder's proprietary blend that synchronizes with skin's natural repair cycle for optimal overnight recovery.</div>
+          </div>
+        </div>
+        <div class="ingredient-item">
+          <div class="ingredient-dot"></div>
+          <div>
+            <div class="ingredient-name">Bifida Ferment Lysate</div>
+            <div class="ingredient-desc">A powerful probiotic-derived ingredient that strengthens the skin barrier and improves resilience against environmental damage.</div>
+          </div>
+        </div>
+        <div class="ingredient-item">
+          <div class="ingredient-dot"></div>
+          <div>
+            <div class="ingredient-name">Peptide Complex</div>
+            <div class="ingredient-desc">Stimulates collagen production and helps restore skin firmness and elasticity for a visibly lifted appearance.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- prod1: ingredients shot -->
+    <div class="ingredients-visual">
+      <img src="prod1.png" alt="Estée Lauder Advanced Night Repair – Key Ingredients" class="ingredients-img" />
+    </div>
+  </div>
+</div>
+
+<!-- ═══ REVIEWS ═══ -->
+<section>
+  <p class="section-tag">Real customers</p>
+  <h2 class="section-title">What Women Are<br>Saying About <em>Night Repair</em></h2>
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"I'm 52 and this is the only serum that has actually made a visible difference in my skin. Fine lines softer, skin glows. I've repurchased 4 times."</p>
+      <div class="review-author">Sandra M. · Verified Purchase</div>
+      <div class="review-verified">✓ Verified Amazon Review</div>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"My dermatologist recommended this and I understand why. After 3 weeks my skin tone was noticeably more even and my pores looked smaller."</p>
+      <div class="review-author">Jennifer K. · Verified Purchase</div>
+      <div class="review-verified">✓ Verified Amazon Review</div>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Worth every penny. I've tried everything from drugstore to $400 serums — this is genuinely the best I've ever used. My skin looks 5 years younger."</p>
+      <div class="review-author">Michelle R. · Verified Purchase</div>
+      <div class="review-verified">✓ Verified Amazon Review</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ HOW TO USE ═══ -->
+<section style="background:var(--white); max-width:100%; padding:100px 40px;">
+  <div style="max-width:1100px; margin:0 auto;">
+    <p class="section-tag">Simple routine</p>
+    <h2 class="section-title">How to Use <em>Night Repair</em><br>for Best Results</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <div class="step-title">Cleanse</div>
+        <div class="step-desc">Start with a clean face. Remove all makeup and impurities before applying.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <div class="step-title">Apply Serum</div>
+        <div class="step-desc">Apply 2–3 drops to your face and neck. Gently press into skin — don't rub.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <div class="step-title">Moisturize</div>
+        <div class="step-desc">Follow with your favorite moisturizer to lock in the serum's benefits.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-number">4</div>
+        <div class="step-title">Sleep &amp; Wake Glowing</div>
+        <div class="step-desc">Use nightly. Results build over time — most women notice a difference within 2 weeks.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA FINAL — prod4 (+128% moisture) ═══ -->
+<div class="cta-section">
+  <div class="cta-left">
+    <p class="section-tag" style="color:var(--gold);">Limited stock on Amazon</p>
+    <h2 class="section-title" style="margin-bottom:20px;">Ready to Transform<br>Your <em>Skin Tonight?</em></h2>
+    <p class="cta-desc">Join over 6,200 women who made the switch. Available on Amazon with free returns — risk free.</p>
+    <a href="https://amzn.to/4dEJBMg" target="_blank" class="btn-large">Get It on Amazon →</a>
+    <p class="guarantee">✓ Free Returns &nbsp;·&nbsp; ✓ Ships Fast with Prime &nbsp;·&nbsp; ✓ Secure Checkout</p>
+  </div>
+
+  <!-- prod4: +128% moisture woman -->
+  <div class="cta-right">
+    <img src="prod4.png" alt="In just one sleep +128% moisture" />
+  </div>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <p class="affiliate-disclosure">
+    <strong style="color:rgba(255,255,255,0.5);">Affiliate Disclosure:</strong> As an Amazon Associate I earn from qualifying purchases. This means if you click on a link and make a purchase, I may receive a small commission at no extra cost to you. All opinions expressed are my own and based on genuine product research and customer reviews.
+  </p>
+</footer>
+
+</body>
+</html>
